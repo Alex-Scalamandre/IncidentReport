@@ -1,0 +1,25 @@
+<!--Contributors-->
+<!--Alex Scalamandre-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Remove Person</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h2>Enter the ID of the person that you would like to remove and the Incident ID to remove from.</h2>
+        <form action="removePerson.php" method="post">
+            <table>
+                <tr><td>Person ID: </td><td>  <input type="text" name="personID" id="personID"></td></tr>
+                <tr><td>Comment ID: </td><td>   <input type="text" name="commentID" id="commentID"></td></tr>
+                <tr><td>Incident ID: </td><td>      <input type="text" name="incidentID" id="incidentID"></td></tr>
+                <tr><td>Date in Format of YYYY-MM-DD: </td><td>     <input type="text" name="date" id="date"></td></tr>
+                <tr><td>Time of Incident in 24 Hour Time: </td><td>     <input type="text" name="time" id="time"></td></tr>
+                <tr><td></td><td>   <input type="submit" value="Submit"></td></tr>
+            </table>
+            <a href="index.html" class="buttonSmall">Back</a>
+        </form>
+    </body>
+</html>

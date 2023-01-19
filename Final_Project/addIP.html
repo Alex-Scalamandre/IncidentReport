@@ -1,0 +1,25 @@
+<!--Contributors-->
+<!--Alex Scalamandre-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Person</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h2>Enter the information of the person to add and to what incident.</h2>
+        <form action="addIP.php" method="post">
+            <table>
+                <tr><td>Incident ID: </td><td>  <input type="text" name="incidentID" id="incidentID"></td></tr>
+                <tr><td>Comment ID: </td><td>   <input type="text" name="commentID" id="commentID"></td></tr>
+                <tr><td>IP Address: </td><td>   <input type="text" name="ipAddress" id="commentID"></td</tr>
+                <tr><td>Date in Format of YYYY-MM-DD: </td><td>     <input type="text" name="date" id="date"></td></tr>
+                <tr><td>Time of Incident in 24 Hour Time: </td><td>     <input type="text" name="time" id="time"></td></tr>
+                <tr><td></td><td>   <input type="submit" value="Submit"></td></tr>
+            </table>
+            <a href="index.html" class="buttonSmall">Back</a>
+        </form>
+    </body>
+</html>

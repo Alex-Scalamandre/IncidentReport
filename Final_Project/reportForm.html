@@ -1,0 +1,40 @@
+<!--Contributors-->
+<!--Alex Scalamandre-->
+
+<!DOCTYPE html>
+
+<html>
+    <title>Report Submit</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <body>
+        <h2>Insert Report Information</h2>
+        <form action="reportSubmit.php" method="post">
+            <table>
+                <tr><td> <h3>Responder Information</h3> </td><td></td></tr>
+                <tr><td>Responder ID: </td><td>    <input type="text" name="personID" id="personID"></td></tr>
+                <tr><td>First Name: </td><td>    <input type="text" name="firstName" id="firstName"></td></tr>
+                <tr><td>Last Name: </td><td>    <input type="text" name="lastName" id="lastName"></td></tr>
+                <tr><td>Email Address: </td><td>    <input type="text" name="emailAddress" id="emailAddress"></td></tr>
+                <tr><td>Job Title: </td><td>    <input type="text" name="jobTitle" id="jobTitle"></td></tr>
+                <tr><td>IP Address (Optional): </td><td>    <input type="text" name="ipAddress" id="ipAddress"></td></tr>
+                <tr><td>Association: </td><td>    <input type="text" name="association" id="association"></td></tr>
+                <tr><td>    <br>    </td><td></td></tr>
+
+                <tr><td> <h3>Incident Information</h3> </td><td></td></tr>
+                
+                <tr><td>Incident ID: </td><td>      <input type="text" name="incidentID" id="incidentID"></td></tr>
+                <tr><td>Type of Incident: </td><td>     <input type="text" name="type" id="type"></td></tr>
+                <tr><td>State of Incident: </td><td></td></tr>
+                <tr><td>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Open</td><td>    <input type="checkbox" name="open"> </td></tr>
+                <tr><td>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Closed</td><td>    <input type="checkbox" name="closed"> </td></tr>
+                <tr><td>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Stalled</td><td>    <input type="checkbox" name="stalled"> </td></tr>
+                <tr><td>Date in Format of YYYY-MM-DD: </td><td>     <input type="text" name="date" id="date"></td></tr>
+                <tr><td>Time of Incident in 24 Hour Time: </td><td>     <input type="text" name="time" id="time"></td></tr>
+                <tr><td>Comments: </td><td>     <textarea rows="5" cols="25" name="comment"></textarea> </td></tr>
+                <tr><td></td><td>   <input type="submit" value="Submit"></td></tr>
+            </table>
+            <a href="index.html" class="buttonSmall">Back</a>
+        </form>
+    </body>
+</html>
+

@@ -1,0 +1,29 @@
+<!--Contributors-->
+<!--Alex Scalamandre-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Person</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h2>Enter the information of the person to add and to what incident.</h2>
+        <form action="addPerson.php" method="post">
+            <table>
+                <tr><td>Incident ID: </td><td>  <input type="text" name="incidentID" id="incidentID"></td></tr>
+                <tr><td>Comment ID: </td><td>   <input type="text" name="commentID" id="commentID"></td></tr>
+                <tr><td>Person ID: </td><td>    <input type="text" name="personID" id="personID"></td></tr>
+                <tr><td>First Name: </td><td>   <input type="text" name="firstName" id="firstName"></td></tr>
+                <tr><td>Last Name: </td><td>    <input type="text" name="lastName" id="lastName"></td></tr>
+                <tr><td>Email Address: </td><td>    <input type="text" name="emailAddress" id="emailAddress"></td></tr>
+                <tr><td>Job Title: </td><td>    <input type="text" name="jobTitle" id="jobTitle"></td></tr>
+                <tr><td>Date in Format of YYYY-MM-DD: </td><td>     <input type="text" name="date" id="date"></td></tr>
+                <tr><td>Time of Incident in 24 Hour Time: </td><td>     <input type="text" name="time" id="time"></td></tr>
+                <tr><td></td><td>   <input type="submit" value="Submit"></td></tr>
+            </table>
+            <a href="index.html" class="buttonSmall">Back</a>
+        </form>
+    </body>
+</html>
